@@ -1,0 +1,38 @@
+disasters:
+  tornado:
+    # Min. explosion range
+    min: 4
+    # Max. explosion range
+    max: 7
+    # Explosions per column
+    exPerColumn: 4
+    # Separation in blocks between column explosions
+    separationExplosions: 8
+    # Min. number of columns
+    minColumns: 10
+    # Max. number of columns
+    maxColumns: 30
+    # N, S, E, W
+    direction: 'N'
+    # Min. separation between columns
+    minSeparation: 4
+    # Max. separation between columns
+    maxSeparation: 6
+    # Min. deflection (movement to left or right)
+    minDeflection: 1
+    # Max. deflection (movement to left or right)
+    maxDeflection: 3
+    # False = left, True = right
+    directionTrend: true
+    # % of posibilities to go to the directionTrend direction on each column
+    percentDirection: 90
+    # Delay between column explosions in TPS
+    columnDelay: 5
+  earthquake:
+    minRadius: 11
+    maxRadius: 30
+    # Delay between every circle in TPS
+    delay: 5
+  lightning:
+    # Radius of the explosion
+    explosion: 5

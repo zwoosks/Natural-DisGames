@@ -1,0 +1,9 @@
+main: me.zwoosks.disgames.Main
+name: DisGames
+version: '1.0'
+author: zwoosks
+website: zwoosks.software
+commands:
+  disaster:
+   description: Spawn a natural disaster
+   usage: /<command> [disaster]
